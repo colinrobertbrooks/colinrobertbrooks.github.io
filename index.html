@@ -1,1 +1,89 @@
-Hello World
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Bootstrap Portfolio</title>
+    <script src="bootstrap/jquery-2.1.1.min.js"></script>
+  	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+  	<script src="bootstrap/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-5">
+      	<img class="img-responsive" src="http://placehold.it/100x100">
+      </div>
+      <div class="text-uppercase text-right col-md-7">
+        <h1>Colin Cummings</h1>
+        <h3>Udacity Front-end Web Devlopment Work</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+      	<img class="img-responsive" src="http://placehold.it/1140x350">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+      	<h2>Featured Work</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="text-center col-md-6">
+        <img class="img-responsive" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project1">
+        <h3 class="text-uppercase">Appify</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+      <div class="text-center col-md-6">
+        <img class="img-responsive" src="http://placehold.it/555x300">
+        <h3 class="text-uppercase">Appify</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+    </div>
+
+	<div class="row">
+      <div class="text-center col-md-6">
+        <img class="img-responsive" src="http://placehold.it/555x300">
+        <h3 class="text-uppercase">Appify</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+      <div class="text-center col-md-6">
+        <img class="img-responsive" src="http://placehold.it/555x300">
+        <h3 class="text-uppercase">Appify</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+    </div>
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/555x300">
+        This was my first project in this class. I learned a lot about HTML and CSS.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+
+</html>
