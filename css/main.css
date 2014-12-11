@@ -1,0 +1,69 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #646464;
+}
+
+.muteText {
+  color: #B4B4B4;
+}
+
+.headShot {
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 100%;
+  text-align: left;
+}
+
+.myName {
+   font-size: 3.5em;
+   margin: 50px 0px -10px 0px;
+
+}
+
+.myTitle {
+   margin: 20px 0px -10px 0px;
+}
+
+hr {
+  border-width: 3px;
+  border-top-color: #646464;
+}
+.jumboImg {
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.featureImg {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.featureImg:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.footerImg {
+  width: 40px;
+  height: 40px;
+  margin: -10px 0px 10px 0px;
+}
+
+@media (max-width: 991px) {
+  .myName {
+    margin: 20px 0px -0px 0px;
+  }
+
+  .myTitle {
+    margin: 10px 0px -0px 0px;
+  }
+  .headImage {
+  	text-align: center;
+  }
+  .headText {
+    text-align: center;
+  }
+  .featureImg {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+}
