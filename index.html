@@ -5,77 +5,95 @@
     <meta charset="utf-8">
     <meta http-equiv="x-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Bootstrap Portfolio</title>
-    <script src="bootstrap/jquery-2.1.1.min.js"></script>
-  	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
-  	<script src="bootstrap/js/bootstrap.min.js"></script>
-  	<link rel="stylesheet" href="main.css">
+    <title>Colin Cummings | Work </title>
+    <script src="css/bootstrap/jquery-2.1.1.min.js"></script>
+  	<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css"> 
+  	<script src="css/bootstrap/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="css/main.css">
   </head>
 
   <body>
 
-  <div class="container">
+  <div class="container text-center">
 
     <div class="row">
-      <div class="col-md-5">
-      	<img class="img-responsive" src="http://placehold.it/100x100">
+      <div class="headImage col-md-2">
+      	<img class="headShot" src="images/headshot.jpg">
       </div>
-      <div class="text-uppercase text-right col-md-7">
-        <h1>Colin Cummings</h1>
-        <h3>Udacity Front-end Web Devlopment Work</h3>
+      <div class=" headText text-right col-md-10">
+        <h1 class="text-uppercase myName">Colin Cummings</h1>
+        <h3 class="myTitle">Web Devloper</h3>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-md-12">
+      	<img class="img-responsive jumboImg" src="images/jumboImg.jpg">
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-12">
-      	<img class="img-responsive" src="http://placehold.it/1140x350">
+      	<h2 class="muteText">Featured Work</h2>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-12">
-      	<h2>Featured Work</h2>
+      <div class="col-md-6">
+        <img class="img-responsive featureImg" src="images/udacityFrogger.jpg" title="Click for project details" data-toggle="modal" data-target="#project1">
+        <h3 class="text-uppercase">Udacity Frogger</h3>
+        <p><a class="muteText" href="http://colinrcummings.github.io/colinrcummings-project-3-frogger-clone/">Link to project</a></p>
+      </div>
+      <div class="col-md-6">
+        <img class="img-responsive featureImg" src="images/comingSoon.jpg" title="Click for project details" data-toggle="modal" data-target="#project2">
+        <h3 class="text-uppercase">Coming Soon!</h3>
+        <p><a class="muteText" href="#">Link to project</a></p>
       </div>
     </div>
 
-    <div class="row">
-      <div class="text-center col-md-6">
-        <img class="img-responsive" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project1">
-        <h3 class="text-uppercase">Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
-      </div>
-      <div class="text-center col-md-6">
-        <img class="img-responsive" src="http://placehold.it/555x300">
-        <h3 class="text-uppercase">Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
-      </div>
-    </div>
+    <hr>
 
-	<div class="row">
-      <div class="text-center col-md-6">
-        <img class="img-responsive" src="http://placehold.it/555x300">
-        <h3 class="text-uppercase">Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
-      </div>
-      <div class="text-center col-md-6">
-        <img class="img-responsive" src="http://placehold.it/555x300">
-        <h3 class="text-uppercase">Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
-      </div>
-    </div>
+    <div>
+    	<a href="https://www.linkedin.com/pub/colin-cummings/4b/a7a/ab3" title="LinkedIn"><img class="footerImg"src="images/linkedin.png"/></a>
+		<a href="https://www.facebook.com/colin.r.cummings" title="Facebook"><img class="footerImg"src="images/facebook.png"/></a>
+		<a href="https://twitter.com/colinrcummings" title="Twitter"><img class="footerImg"src="images/twitter.png"/></a>
+		<a href="https://github.com/colinrcummings" title="GitHub"><img class="footerImg"src="images/github.png"/></a>
+	</div>
 
 </div>
 
-<!-- Modal -->
+<!-- project 1 modal -->
 <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        <h4 class="modal-title" id="myModalLabel">Udacity Frogger</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="http://placehold.it/555x300">
-        This was my first project in this class. I learned a lot about HTML and CSS.
+        <img class="img-responsive" src="images/udacityFrogger.jpg">
+        <p>This is a clone of Frogger built from Udacity's frontend-nanodegree-arcade-game directory.</p>
+		<p>To play, access <a href="http://colinrcummings.github.io/colinrcummings-project-3-frogger-clone/">this link</a> on a laptop or a desktop (mobile not currently supported).</p>
+		<p>Select an avatar, a dificulty rating and a duration, then click Start Game. Once the game starts, use the arrow keys on your keyboard to collect as many gems as you can within the time limit. Don't get hit by any bugs!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- project 2 modal -->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Lorem ipsum dolor...</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/comingSoon.jpg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
