@@ -33,7 +33,7 @@ hr {
 
 .featureText {
   color: #B4B4B4;
-  margin: 20px 0px 15px 0px;
+  margin: 25px 0px 15px 0px;
 }
 
 .featureImg {
@@ -50,6 +50,8 @@ a.linkText {
 }
 
 h3.linkText {
+  margin-top: 15px;
+  margin-bottom: 30px;
   color: #646464;
 }
 h3.linkText:hover {

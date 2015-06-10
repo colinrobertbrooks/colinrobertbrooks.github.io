@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="css/bootstrap/jquery-2.1.1.min.js"></script>
   	<script src="css/bootstrap/js/bootstrap.min.js"></script>
-  	
   </head>
-
   <body>
 
   <div class="container text-center">
@@ -24,46 +22,66 @@
       </div>
       <div class=" headText text-uppercase text-right col-md-10">
         <h1 class="myName">Colin Cummings</h1>
-        <h3 class="myTitle">Web Devloper</h3>
+        <h4 class="myTitle">Web Development &nbsp|&nbsp Data Visualization</h4>
       </div>
     </div>
 
     <hr>
 
+    <!-- jumbotron -->
     <div class="row">
       <div class="col-md-12">
       	<img class="img-responsive jumboImg" src="images/jumboImg.jpg">
       </div>
     </div>
 
+    <!-- featured work header -->
     <div class="row">
       <div class="col-md-12">
       	<h2 class="featureText">Featured Work</h2>
       </div>
     </div>
 
+    <!-- featured work row 1 -->
     <div class="row">
       <div class="col-md-6">
-        <img class="img-responsive featureImg" src="images/udacityFrogger.jpg" title="Click for project details" data-toggle="modal" data-target="#project1">
-        <a class="linkText" href="http://colinrcummings.github.io/colinrcummings-project-3-frogger-clone/">
-          <h3 class="linkText">Udacity Frogger</h3>
+        <img class="img-responsive featureImg" src="images/jmt_survey_2014.jpg" title="Click for project details" data-toggle="modal" data-target="#project1">
+        <a class="linkText" href="http://colinrcummings.github.io/jmt_vis/" target="_blank">
+          <h3 class="linkText">2014 JMT Hiker Survey</h3>
         </a>
       </div>
       <div class="col-md-6">
-        <img class="img-responsive featureImg" src="images/comingSoon.jpg" title="Click for project details" data-toggle="modal" data-target="#project2">
+        <img class="img-responsive featureImg" src="images/cfi_2015_sc.jpg" title="Click for project details" data-toggle="modal" data-target="#project2">
+        <a class="linkText" href="http://colinrcummings.github.io/cfi_vis/" target="_blank">
+          <h3 class="linkText">2015 Colorado 14ers Scorecard</h3>
+        </a>
+      </div>
+    </div>
+
+    <!-- featured work row 2 -->
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-responsive featureImg" src="images/pb_brand.jpg" title="Click for project details" data-toggle="modal" data-target="#project3">
+        <a class="linkText" href="http://www.peakbucket.com/"  target="_blank">
+          <h3 class="linkText">PeakBucket</h3>
+        </a>
+      </div>
+      <div class="col-md-6">
+        <img class="img-responsive featureImg" src="images/comingSoon.jpg" title="Click for project details" data-toggle="modal" data-target="#project4">
         <a class="linkText" href="#">
-          <h3 class="linkText">Coming Soon!</h3>
+          <h3 class="linkText">Coming Soon</h3>
         </a>
       </div>
     </div>
 
     <hr>
 
+    <!-- footer links -->
     <div>
-    	<a href="https://www.linkedin.com/pub/colin-cummings/4b/a7a/ab3" title="LinkedIn"><img class="footerImg"src="images/linkedin.png"/></a>
-		<a href="https://www.facebook.com/colin.r.cummings" title="Facebook"><img class="footerImg"src="images/facebook.png"/></a>
-		<a href="https://twitter.com/colinrcummings" title="Twitter"><img class="footerImg"src="images/twitter.png"/></a>
-		<a href="https://github.com/colinrcummings" title="GitHub"><img class="footerImg"src="images/github.png"/></a>
+    <a href="https://www.linkedin.com/pub/colin-cummings/4b/a7a/ab3" title="LinkedIn" target="_blank"><img class="footerImg"src="images/linkedin.png"/></a>
+		<a href="https://www.facebook.com/colin.r.cummings" title="Facebook" target="_blank"><img class="footerImg"src="images/facebook.png"/></a>
+		<a href="https://twitter.com/colinrcummings" title="Twitter" target="_blank"><img class="footerImg"src="images/twitter.png"/></a>
+		<a href="https://github.com/colinrcummings" title="GitHub" target="_blank"><img class="footerImg"src="images/github.png"/></a>
 	</div>
 
 </div>
@@ -73,13 +91,12 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Udacity Frogger</h4>
+        <h4 class="modal-title" id="myModalLabel">2014 JMT Hiker Survey</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="images/udacityFrogger.jpg">
-        <p>This is a clone of Frogger built from Udacity's frontend-nanodegree-arcade-game directory.</p>
-		<p>To play, access <a href="http://colinrcummings.github.io/colinrcummings-project-3-frogger-clone/">this link</a> on a laptop or a desktop (mobile not currently supported).</p>
-		<p>Select an avatar, a dificulty rating and a duration, then click Start Game. Once the game starts, use the arrow keys on your keyboard to collect as many gems as you can within the time limit. Don't get hit by any bugs!</p>
+        <img class="img-responsive" src="images/jmt_survey_2014.jpg">
+        <p><b>Description:</b> An interactive data visualization of the 2014 JMT Hiker Survey.</p>
+        <p><b>Technology:</b> Bootstrap, JQuery, D3, Crossfilter, TopoJSON, Waypoints, Animate</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -93,11 +110,12 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Lorem ipsum dolor...</h4>
+        <h4 class="modal-title" id="myModalLabel">2015 Colorado 14ers Scorecard</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="images/comingSoon.jpg">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <img class="img-responsive" src="images/cfi_2015_sc.jpg">
+        <p><b>Description:</b> An interactive data visualization of the 2015 Colorado 14ers Statewide Scorecard.</p>
+        <p><b>Technology:</b> Bootstrap, JQuery, D3, Crossfilter, TopoJSON, Queue</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -106,6 +124,43 @@
   </div>
 </div>
 
-  </body>
+<!-- project 3 modal -->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">PeakBucket</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/pb_brand.jpg">
+        <p><b>Description:</b> A free data tracking and visualization web application for peakbaggers that I'm currently developing with my friend <a target="_blank" href="https://twitter.com/maxArturoAS">@maxArturoAS</a>.</p>
+        <p><b>Technology:</b> Ruby on Rails, Bootstrap, JQuery, D3, Crossfilter</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!-- project 4 modal -->
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Coming Soon</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/comingSoon.jpg">
+        <p>I'm always working on something; check back soon.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </body>
 </html>
