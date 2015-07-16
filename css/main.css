@@ -49,6 +49,14 @@ a.linkText {
   color: #646464;
 }
 
+.visit-btn,
+.visit-btn:hover,
+.visit-btn:focus,
+.visit-btn:visited {
+  color: rgb(100, 100, 100);
+  text-decoration: none
+}
+
 h3.linkText {
   margin-top: 15px;
   margin-bottom: 30px;
