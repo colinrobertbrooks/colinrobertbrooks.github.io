@@ -13,7 +13,7 @@
     font-size: 28px;
   }
   #to-about-btn {
-    margin-top: 100px;
+    margin-top: 75px;
   }
   .about {
     padding: 75px 0;
@@ -45,8 +45,16 @@
   }
   .splash {
     background: url(../images/splash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   section.contact {
     background: url(../images/contact.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
