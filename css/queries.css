@@ -16,7 +16,7 @@
     margin-top: 75px;
   }
   .about {
-    padding: 75px 0;
+    padding-top: 50px !important;
   }
   #contact-typed-container {
     font-size: 28px;
