@@ -197,7 +197,8 @@ header {
 
 /* about */
 .about {
-  padding: 125px 0;
+  padding-top: 75px;
+  padding-bottom: 150px;
   background-color: #f5f6fa;
 }
 .about h1 {
