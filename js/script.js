@@ -75,7 +75,7 @@ function drawProjects (projType) {
   typeProjects.forEach(function(d){
      $('#project-container').append(
       '<div class="col-md-6 project">' +
-        '<img class="img-responsive project-img" src="/images/projects/' + d.image + '" title="Click for project details" onclick="showProjectModal(' + d.key + ')">' +
+        '<img class="img-responsive center-block project-img" src="/images/projects/' + d.image + '" title="Click for project details" onclick="showProjectModal(' + d.key + ')">' +
       '</div>'
     );
   });
