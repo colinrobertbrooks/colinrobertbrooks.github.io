@@ -108,7 +108,7 @@ header {
 .splash {
   position: relative;
   height: 100%;
-  background: rgb(40, 70, 102) url(../images/splash.jpg) fixed center center;
+  background: rgb(245, 246, 250) url(../images/splash.jpg) fixed center center;
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
@@ -197,7 +197,7 @@ header {
 
 /* about */
 .about {
-  padding: 150px 0;
+  padding: 125px 0;
   background-color: #f5f6fa;
 }
 .about h1 {
