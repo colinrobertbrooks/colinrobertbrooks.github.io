@@ -9,7 +9,7 @@
     <meta property="og:image" content="images/screenshot.jpg"/>
     <meta property="og:url" content="colinrcummings.github.io"/>
     <meta property="og:site_name" content="Colin Cummings, Web Developer"/>
-    <meta property="og:description" content="Colin is a web developer from New England with a penchant for data visualization"/>
+    <meta property="og:description" content="Colin is a web developer from New England with a penchant for data visualization."/>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,200' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -20,13 +20,14 @@
   <body>
     <!-- splash -->
     <header>
+      <div id="to-top" class=""></div>
       <section class="splash">
         <div class="texture-overlay"></div>
         <div class="contaier-fluid">
           <div class="row fixed-header">
             <div class="col-xs-10 col-sm-10 col-md-10 text-left logo-type">
-              <p>Colin Cummings</p>
-              <img class="logo-img" src="images/cc_white.svg">
+              <a class="logo-type-href" href="#to-top">Colin Cummings</a>
+              <a class="logo-img-href" href="#to-top"><img class="logo-img" src="images/cc_white.svg"></a>
             </div>
             <div class="col-xs-2 col-sm-2 col-md-2 text-right navicon">
               <i id="menu-toggle" class="fa fa-bars"></i>
@@ -61,7 +62,7 @@
             <p class="wp1-effect-2">Web development and data visualization are professional and personal passions of mine. Professionally, I build interactive dashboards, working from the JavaScript running in the browser to the SQL behind the web services. Personally, I enjoy creating engaging, responsive websites and visualizations―especially when their content involves bringing together nature and data in a meaningful way. I use a lot of open source frameworks in my work and am comfortable working up and down the stack.</p>
             <p class="wp1-effect-2">When I'm not coding I'm usually outside somewhere, hiking or rock climbing.</p>
             <a href="#to-work" class="continue-btn">
-                <i class="fa fa-chevron-circle-down wp1-effect-3"></i>
+                <i class="fa fa-chevron-circle-down wp1-effect-3 pulse"></i>
             </a>
           </div>
         </div>
@@ -87,7 +88,7 @@
           <div class="col-md-12">
             <p class="wp2-effect-1">Click a project for details.</p>
             <a href="#to-contact" class="continue-btn">
-              <i class="fa fa-chevron-circle-down wp2-effect-2"></i>
+              <i class="fa fa-chevron-circle-down wp2-effect-2 pulse"></i>
             </a>
           </div>
         </div>
@@ -121,7 +122,7 @@
       <div class="row text-center">
         <div class="col-md-12">
           <ul class="list-unstyled">
-            <li><a href="#"><img class="menu-img" src="images/cc_white.svg"></a></li>
+            <li><a href="#to-top"><img class="menu-img" src="images/cc_white.svg"></a></li>
             <li><a href="#to-about">About</a></li>
             <li><a href="#to-work">Featured Work</a></li>
             <li><a href="#to-contact">Get In Touch</a></li>

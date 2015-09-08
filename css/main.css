@@ -136,17 +136,22 @@ header {
 .has-background {
   background-color: rgba(0, 0, 0, 1);
 }
-.logo-type p {
+.logo-type-href,
+.logo-type-href:hover,
+.logo-type-href:focus {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 22px;
   font-weight: 300;
   margin: 0;
+  text-decoration: none !important;
+}
+.logo-img-href {
+  display: none;
 }
 .logo-img {
-  max-height: 32px;
-  display: none;
+  max-height: 32px !important;
 }
 #menu-toggle {
   font-size: 30px;
@@ -314,6 +319,37 @@ section.contact {
 .fadeInUp {
   visibility: visible;
 }
+.pulse {
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  50% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  50% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+}
 
 
 /* sliiide */
@@ -322,7 +358,6 @@ section.contact {
   background-color: rgba(0, 0, 0, .99);
   visibility: hidden;
   position: fixed;
-  overflow: hidden;
 }
 .flex-center-wrapper {
   display: flex;

@@ -1,9 +1,9 @@
 /* below xs */
 @media only screen and (max-width: 480px)  {
-  .logo-type p {
+  .logo-type-href {
     display: none;
   }
-  .logo-img {
+  .logo-img-href {
     display: block;
   }
   #splash-typed-container {
