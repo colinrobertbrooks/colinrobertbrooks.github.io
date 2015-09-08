@@ -225,7 +225,7 @@ header {
 /* work */
 .featured-work {
   padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 90px;
 }
 .featured-work h1 {
   color: #424242;
@@ -289,7 +289,7 @@ section.contact {
   margin-bottom: 100px;
 }
 #contact-btn {
-  margin-bottom: 100px;
+  margin-bottom: 110px;
 }
 .contact-icon {
   color: #fff;
