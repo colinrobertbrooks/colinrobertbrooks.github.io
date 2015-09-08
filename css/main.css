@@ -157,6 +157,9 @@ header {
   font-size: 30px;
   cursor: pointer;
 }
+#menu-toggle:hover {
+  color: #f5f6fa;
+}
 .splash-content {
   display: -webkit-box;
   display: -moz-box;
@@ -304,6 +307,10 @@ section.contact {
   margin-top: 90px;
   margin-bottom: 90px;
 }
+.contact-icon:hover,
+.contact-icon:focus {
+  color: #dcdde1;
+}
 
 
 /* waypoints */
@@ -404,6 +411,9 @@ section.contact {
   font-size: 30px;
   color: white;
   cursor: pointer;
+}
+.exit:hover{
+  color: #f5f6fa;
 }
 .menu-img {
   margin-top: 20px;
