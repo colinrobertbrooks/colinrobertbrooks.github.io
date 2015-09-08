@@ -12,6 +12,9 @@
   .fa.fa-heart {
     font-size: 28px;
   }
+  #to-about-btn {
+    margin-top: 100px;
+  }
   .about {
     padding: 75px 0;
   }
@@ -39,5 +42,11 @@
 @media only screen and (max-width: 1200px)  {
   #tech-svg {
     display: none;
+  }
+  .splash {
+    background: url(../images/splash.jpg) no-repeat center center;
+  }
+  section.contact {
+    background: url(../images/contact.jpg) no-repeat center center;
   }
 }
