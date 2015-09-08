@@ -18,6 +18,10 @@
   .about {
     padding-top: 30px !important;
   }
+  }
+  .contact-interior {
+    padding-top: 100px;
+  }
   #contact-typed-container {
     font-size: 28px;
   }

@@ -304,7 +304,8 @@ section.contact {
 .wp1-effect-1,
 .wp1-effect-2,
 .wp1-effect-3,
-.wp2-effect-1 {
+.wp2-effect-1,
+.wp2-effect-2 {
   visibility: hidden;
 }
 .fadeIn,

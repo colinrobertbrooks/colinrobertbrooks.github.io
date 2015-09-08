@@ -23,7 +23,7 @@
       "release": "April 2015",
       "image": "frances_kornbluth.jpg",
       "link": "http://www.franceskornbluth.com/",
-      "description": "TBD.",
+      "description": "An artist's website, including an interactive online collection.",
       "technology": [
         "Bootstrap",
         "jQuery",

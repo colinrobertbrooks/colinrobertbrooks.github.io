@@ -105,7 +105,8 @@ $('.wp1').waypoint(function() {
   $('.wp1-effect-3').addClass('animated fadeInUp');
 });
 $('.wp2').waypoint(function() {
-  $('.wp2-effect-1').addClass('animated fadeInUp');
+  $('.wp2-effect-1').addClass('animated fadeIn');
+  $('.wp2-effect-2').addClass('animated fadeInUp');
 });
 
 
