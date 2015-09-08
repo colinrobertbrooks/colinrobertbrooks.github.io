@@ -1,0 +1,43 @@
+/* below xs */
+@media only screen and (max-width: 480px)  {
+  .logo-type p {
+    display: none;
+  }
+  .logo-img {
+    display: block;
+  }
+  #splash-typed-container {
+    font-size: 35px;
+  }
+  .fa.fa-heart {
+    font-size: 28px;
+  }
+  .about {
+    padding: 75px 0;
+  }
+  #contact-typed-container {
+    font-size: 28px;
+  }
+}
+
+
+/* below sm */
+@media only screen and (max-width: 768px)  {
+
+}
+
+
+/* below md */
+@media only screen and (max-width: 992px)  {
+  .about {
+    padding: 100px 0;
+  }
+}
+
+
+/* below lg */
+@media only screen and (max-width: 1200px)  {
+  #tech-svg {
+    display: none;
+  }
+}

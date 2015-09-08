@@ -1,174 +1,156 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Colin Cummings | Work </title>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css"> 
+    <title>Colin Cummings | Web Developer</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,200' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="css/bootstrap/jquery-2.1.1.min.js"></script>
-  	<script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/queries.css">
   </head>
   <body>
-
-  <div class="container text-center">
-
-    <div class="row">
-      <div class="headImage col-md-2">
-      	<img class="headShot" src="images/headshot.jpg">
+    <!-- splash -->
+    <header>
+      <section class="splash">
+        <div class="texture-overlay"></div>
+        <div class="contaier-fluid">
+          <div class="row fixed-header">
+            <div class="col-xs-10 col-sm-10 col-md-10 text-left logo-type">
+              <p>Colin Cummings</p>
+              <img class="logo-img" src="images/cc_white.svg">
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 text-right navicon">
+              <i id="menu-toggle" class="fa fa-bars"></i>
+            </div>
+          </div>
+        </div>
+        <div class="splash-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p id="splash-typed-container">I <i class="fa fa-heart"></i> <span id="splash-typed-text"></span></p>
+                <div id="tech-svg"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                <a href="#to-about" id="to-about-btn" class="square-btn fadeInDown animated">About</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- about -->
+    <div id="to-about" class="anchor wp1"></div>
+    <section class="about">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-8 col-md-offset-2">
+            <img class="gravatar wp1-effect-1"src="images/headshot.jpg" alt="Colin Cummings">
+            <h1 class="wp1-effect-2">Web Development &nbsp|&nbsp Data Visualization</h1>
+            <p class="wp1-effect-2">Web development and data visualization are professional and personal passions of mine. Professionally, I build interactive dashboards, working from the JavaScript running in the browser to the SQL behind the web services. Personally, I enjoy creating engaging, responsive websites and visualizations―especially when their content involves bringing together nature and data in a meaningful way. I use a lot of open source frameworks in my work and am comfortable working up and down the stack.</p>
+            <p class="wp1-effect-2">When I'm not coding I'm usually outside somewhere, hiking or rock climbing.</p>
+            <a href="#to-work" class="continue-btn">
+                <i class="fa fa-chevron-circle-down wp1-effect-3"></i>
+            </a>
+          </div>
+        </div>
       </div>
-      <div class=" headText text-uppercase text-right col-md-10">
-        <h1 class="myName">Colin Cummings</h1>
-        <h4 class="myTitle">Web Development &nbsp|&nbsp Data Visualization</h4>
+    </section>
+    <!-- featured work -->
+    <div id="to-work" class="anchor wp2"></div>
+    <section id="work" class="featured-work">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h1>Featured Work</h1>
+            <div id="work-btn-group" class="btn-group">
+              <button type="button" id="web-btn" class="btn work-btn work-btn-selected" onclick="drawProjects('web')">Web</button>
+              <button type="button" id="viz-btn" class="btn work-btn" onclick="drawProjects('viz')">Viz</button>
+            </div>
+          </div>
+        </div>
+        <div id="project-container" class="row text-center">
+          <!-- projects -->
+        </div>
+        <div class="row text-center">
+          <div class="col-md-12">
+            <a href="#to-contact" class="continue-btn">
+              <i class="fa fa-chevron-circle-down wp2-effect-1"></i>
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <hr>
-
-    <!-- jumbotron -->
-    <div class="row">
-      <div class="col-md-12">
-      	<img class="img-responsive jumboImg" src="images/jumboImg.jpg">
+    </section>
+    <!-- contact -->
+    <div id="to-contact" class="anchor"></div>
+    <section class="contact" id="contact">
+      <div class="contact-wrap">
+        <div class="texture-overlay"></div>
+        <div class="contact-interior container">
+          <div class="row text-center">
+            <div class="col-md-12 ">
+              <p id="contact-typed-container">Let's <span id="contact-typed-text"></span></p>
+              <a href="mailto:colinrcummings@gmail.com?subject=Getting In Touch" id="contact-btn" class="square-btn floating">Get In Touch</a>
+              <div>
+                <a href="https://www.linkedin.com/pub/colin-cummings/4b/a7a/ab3" title="LinkedIn" target="_blank"><i class="fa fa-linkedin-square contact-icon"></i></a>
+                <a href="https://github.com/colinrcummings" title="GitHub" target="_blank"><i class="fa fa-github-square contact-icon"></i></a>
+                <a href="https://www.facebook.com/colin.r.cummings" title="Facebook" target="_blank"><i class="fa fa-facebook-square contact-icon"></i></a>
+                <a href="https://twitter.com/colinrcummings" title="Twitter" target="_blank"><i class="fa fa-twitter-square contact-icon"></i></a>
+                <a href="https://instagram.com/colinrcummings/" title="Instagram" target="_blank"><i class="fa fa-instagram contact-icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <!-- featured work header -->
-    <div class="row">
-      <div class="col-md-12">
-      	<h2 class="featureText">Featured Work</h2>
-      </div>
-    </div>
-
-    <!-- featured work row 1 -->
-    <div class="row">
-      <div class="col-md-6">
-        <img class="img-responsive featureImg" src="images/cfi_2015_sc.jpg" title="Click for project details" data-toggle="modal" data-target="#project1">
-        <a class="linkText" href="http://colinrcummings.github.io/cfi_vis/" target="_blank">
-          <h3 class="linkText">2015 Colorado 14ers Scorecard</h3>
-        </a>
-      </div>
-      <div class="col-md-6">
-        <img class="img-responsive featureImg" src="images/jmt_survey_2014.jpg" title="Click for project details" data-toggle="modal" data-target="#project2">
-        <a class="linkText" href="http://colinrcummings.github.io/jmt_vis/" target="_blank">
-          <h3 class="linkText">2014 JMT Hiker Survey Results</h3>
-        </a>
-      </div>
-    </div>
-
-    <!-- featured work row 2 -->
-    <div class="row">
-      <div class="col-md-6">
-        <img class="img-responsive featureImg" src="images/pb_brand.jpg" title="Click for project details" data-toggle="modal" data-target="#project3">
-        <a class="linkText" href="http://www.peakbucket.com/"  target="_blank">
-          <h3 class="linkText">PeakBucket</h3>
-        </a>
-      </div>
-      <div class="col-md-6">
-        <img class="img-responsive featureImg" src="images/comingSoon.jpg" title="Click for project details" data-toggle="modal" data-target="#project4">
-        <a class="linkText" href="#">
-          <h3 class="linkText">Coming Soon</h3>
-        </a>
-      </div>
-    </div>
-
-    <hr>
-
-    <!-- footer links -->
-    <div>
-    <a href="https://www.linkedin.com/pub/colin-cummings/4b/a7a/ab3" title="LinkedIn" target="_blank"><img class="footerImg"src="images/linkedin.png"/></a>
-		<a href="https://www.facebook.com/colin.r.cummings" title="Facebook" target="_blank"><img class="footerImg"src="images/facebook.png"/></a>
-		<a href="https://twitter.com/colinrcummings" title="Twitter" target="_blank"><img class="footerImg"src="images/twitter.png"/></a>
-		<a href="https://github.com/colinrcummings" title="GitHub" target="_blank"><img class="footerImg"src="images/github.png"/></a>
-	</div>
-
-</div>
-
-
-<!-- project 1 modal -->
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">2015 Colorado 14ers Scorecard</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/cfi_2015_sc.jpg">
-        <p><b>Date:</b> June 2015</p>
-        <p><b>Description:</b> An interactive data visualization of the 2015 Colorado 14ers Statewide Scorecard.</p>
-        <p><b>Technology:</b> Bootstrap, JQuery, D3, Crossfilter, TopoJSON, Queue</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default"><a class="visit-btn" href="http://colinrcummings.github.io/cfi_vis/" target="_blank">Visit</a></button>
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- project 2 modal -->
-<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">2014 JMT Hiker Survey Results</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/jmt_survey_2014.jpg">
-        <p><b>Date:</b> May 2015</p>
-        <p><b>Description:</b> An interactive data visualization of the 2014 JMT Hiker Survey.</p>
-        <p><b>Technology:</b> Bootstrap, JQuery, D3, Crossfilter, TopoJSON, Waypoints, Animate</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default"><a class="visit-btn" href="http://colinrcummings.github.io/jmt_vis/" target="_blank">Visit</a></button>
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </section>
+    <!-- menu -->
+    <div id="menu" class="sliding-menu flex-center-wrapper flex-column right-menu">
+      <i id="menu-exit" class="fa fa-times exit right-exit"></i>
+      <div class="row text-center">
+        <div class="col-md-12">
+          <ul class="list-unstyled">
+            <li><a href="#"><img class="menu-img" src="images/cc_white.svg"></a></li>
+            <li><a href="#to-about">About</a></li>
+            <li><a href="#to-work">Featured Work</a></li>
+            <li><a href="#to-contact">Get In Touch</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-
-<!-- project 3 modal -->
-<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">PeakBucket</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/pb_brand.jpg">
-        <p><b>Date:</b> Forthcoming</p>
-        <p><b>Description:</b> A free data tracking and visualization web application for peakbaggers that I'm currently developing with my friend <a target="_blank" href="https://twitter.com/maxArturoAS">@maxArturoAS</a>.</p>
-        <p><b>Technology:</b> Ruby on Rails, Bootstrap, JQuery, D3, Crossfilter</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default"><a class="visit-btn" href="http://www.peakbucket.com/" target="_blank">Visit</a></button>
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- project 4 modal -->
-<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Coming Soon</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/comingSoon.jpg">
-        <p>I'm always working on something; check back soon.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!-- project modal -->
+    <div class="modal fade" id="project-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="proj-modal-name"></h4>
+          </div>
+          <div class="modal-body">
+            <img id="proj-modal-img" class="img-responsive" src="">
+          </div>
+          <div class="modal-footer">
+            <div class="text-left">
+              <p><b>Release:</b> <span id="proj-modal-release"></span></p>
+              <p><b>Description:</b> <span id="proj-modal-description"></span></p>
+              <p><b>Technology:</b> <span id="proj-modal-technology"></span></p>
+            </div>
+            <a id="proj-modal-link" class="btn btn-default" href="" target="_blank">Visit</a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-
+    <script src="js/lib/jquery-2.1.1.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/d3.min.js"></script>
+    <script src="js/lib/sliiide.min.js"></script>
+    <script src="js/lib/typed.min.js"></script>
+    <script src="js/lib/waypoints.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
