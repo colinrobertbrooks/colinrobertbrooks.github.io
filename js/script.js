@@ -44,7 +44,7 @@ $( document ).ready(function(){
   });
   //initiate contact typed
   $("#contact-typed-text").typed({
-    strings: ['chat...','collaborate...','code...','create...','climb...'],
+    strings: ['hat...','ollaborate...','ode...','reate...','limb...'],
     typeSpeed: 100,
     startDelay: 20,
     backSpeed: 35,
