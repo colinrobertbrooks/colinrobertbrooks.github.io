@@ -15,6 +15,7 @@ var techSVGs = [
   {id: "bootstrap", file: 'bootstrap.svg', color: '#563d7c'},
   {id: "jquery", file: 'jquery.svg', color: '#21609b'},
   {id: "d3", file: 'd3.svg', color: '#f68e45'},
+  {id: "react", file: 'react.svg', color: '#53c1de'},
   {id: "rails", file: 'rails.svg', color: '#a62c39'}
 ];
 var lastSVG;
@@ -32,7 +33,7 @@ $( document ).ready(function(){
   $('#menu').sliiide(sliiideConfig);
   //initiate splash typed
   $("#splash-typed-text").typed({
-    strings: ['HTML5','CSS3','JavaScript','Bootstrap','jQuery','D3','Rails'],
+    strings: ['HTML5','CSS3','JavaScript','Bootstrap','jQuery','D3','React','Rails'],
     typeSpeed: 100,
     startDelay: 20,
     backSpeed: 35,
