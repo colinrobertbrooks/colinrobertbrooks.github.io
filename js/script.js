@@ -8,17 +8,19 @@ var sliiideConfig = {
   body_slide: false, //set it to true if you want to use the effect where the entire page slides and not just the div
   no_scroll: true //set to true if you want the scrolling disabled while the menu is active
 };
-var techSVGs = [
-  {id: "html5", file: 'html-5.svg', color: '#e44d26'},
-  {id: "css3", file: 'css-3.svg', color: '#264de4'},
-  {id: "javascript", file: 'javascript.svg', color: '#f7df1e'},
-  {id: "bootstrap", file: 'bootstrap.svg', color: '#563d7c'},
-  {id: "jquery", file: 'jquery.svg', color: '#21609b'},
-  {id: "d3", file: 'd3.svg', color: '#f68e45'},
-  {id: "react", file: 'react.svg', color: '#53c1de'},
-  {id: "rails", file: 'rails.svg', color: '#a62c39'}
+var techArr = [
+  {id: "html5", file: 'html-5.svg', color: '#e44d26', name: 'HTML5'},
+  {id: "css3", file: 'css-3.svg', color: '#264de4', name: 'CSS3'},
+  {id: "sass", file: 'sass.svg', color: '#cd6799', name: 'SASS'},
+  {id: "bootstrap", file: 'bootstrap.svg', color: '#563d7c', name: 'Bootstrap'},
+  {id: "javascript", file: 'javascript.svg', color: '#f7df1e', name: 'JavaScript'},
+  {id: "jquery", file: 'jquery.svg', color: '#21609b', name: 'jQuery'},
+  {id: "d3", file: 'd3.svg', color: '#f68e45', name: 'D3'},
+  {id: "react", file: 'react.svg', color: '#53c1de', name: 'React'},
+  {id: "jekyll", file: 'jekyll.svg', color: '#d50000', name: 'Jekyll'},
+  {id: "rails", file: 'rails.svg', color: '#a62c39', name: 'Rails'}
 ];
-var lastSVG;
+var lastTech;
 var projects;
 
 
@@ -33,14 +35,14 @@ $( document ).ready(function(){
   $('#menu').sliiide(sliiideConfig);
   //initiate splash typed
   $("#splash-typed-text").typed({
-    strings: ['HTML5','CSS3','JavaScript','Bootstrap','jQuery','D3','React','Rails'],
+    strings: techArr.map(function(d){return d.name; }),
     typeSpeed: 100,
     startDelay: 20,
     backSpeed: 35,
     backDelay: 2000,
     loop: true,
     preStringTyped: function(curString) {
-      changeTechSVG(curString);
+      changeTech(curString);
     }
   });
   //initiate contact typed
@@ -55,16 +57,16 @@ $( document ).ready(function(){
 });
 
 
-//technology svg functions
-function changeTechSVG (svgIndex) {
-  var incomingSVG = techSVGs[svgIndex];
-  $(lastSVG).addClass('slideOutLeft animated');
+//technology functions
+function changeTech (techIndex) {
+  var incomingTech = techArr[techIndex];
+  $(lastTech).addClass('slideOutLeft animated');
     setTimeout(function(){
-      $(lastSVG).remove();
-      lastSVG = '#' + incomingSVG.id;
+      $(lastTech).remove();
+      lastTech = '#' + incomingTech.id;
   }, 210);
-  $('#splash-typed-text').css('color', incomingSVG.color);
-  $('#tech-svg').append("<img src=/images/tech-svg/" + incomingSVG.file  + " id='" + incomingSVG.id + "' class='tech-img slideInRight animated'>");
+  $('#splash-typed-text').css('color', incomingTech.color);
+  $('#tech-svg').append("<img src=/images/tech-svg/" + incomingTech.file  + " id='" + incomingTech.id + "' class='tech-img slideInRight animated'>");
 }
 
 

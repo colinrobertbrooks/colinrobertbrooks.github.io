@@ -39,6 +39,13 @@
   .about {
     padding: 100px 0;
   }
+  section.contact {
+    background: url(../images/contact.jpg) no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 
@@ -49,13 +56,6 @@
   }
   .splash {
     background: url(../images/splash.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  section.contact {
-    background: url(../images/contact.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
