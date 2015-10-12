@@ -5,6 +5,10 @@ html {
   -ms-text-size-adjust: 100%;
   overflow-x: hidden;
 }
+body {
+  padding-right:0px !important;
+  margin-right:0px !important;
+}
 html,
 body {
   width: 100%;
@@ -417,7 +421,8 @@ section.contact {
 
 /* project modal */
 body.modal-open {
-    overflow: visible;
+  overflow: visible;
 }
-
-
+#project-modal {
+  padding-right: 0px !important;
+}

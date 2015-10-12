@@ -17,7 +17,6 @@ var techArr = [
   {id: "jquery", file: 'jquery.svg', color: '#21609b', name: 'jQuery'},
   {id: "d3", file: 'd3.svg', color: '#f68e45', name: 'D3'},
   {id: "react", file: 'react.svg', color: '#53c1de', name: 'React'},
-  {id: "jekyll", file: 'jekyll.svg', color: '#d50000', name: 'Jekyll'},
   {id: "rails", file: 'rails.svg', color: '#a62c39', name: 'Rails'}
 ];
 var lastTech;
@@ -72,12 +71,11 @@ function changeTech (techIndex) {
 
 //project functions
 function drawProjects (projType) {
-  //add projects
-  $('.project').remove();
+  //add incoming projects
   var typeProjects = projects.filter(function(d){ return d.type === projType; });
   typeProjects.forEach(function(d){
      $('#project-container').append(
-      '<div class="col-md-6 project">' +
+      '<div class="col-md-6 ' + projType + '-project">' +
         '<img class="img-responsive center-block project-img" src="/images/projects/' + d.image + '" title="Click for project details" onclick="showProjectModal(' + d.key + ')">' +
       '</div>'
     );
@@ -85,6 +83,15 @@ function drawProjects (projType) {
   //update buttons
   $('.work-btn').removeClass('work-btn-selected');
   $('#' + projType + '-btn').addClass('work-btn-selected');
+  //remove outgoing projects
+  switch(projType) {
+    case 'web':
+      $('.viz-project').remove();
+      break;
+    case 'viz':
+      $('.web-project').remove();
+      break;
+  }
 }
 
 function showProjectModal (projKey) {
