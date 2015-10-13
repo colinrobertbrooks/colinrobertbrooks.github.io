@@ -71,11 +71,16 @@ function changeTech (techIndex) {
 
 //project functions
 function drawProjects (projType) {
+  //set projects container min-height
+  var projContainerHeight = $('#project-container').height();
+  $('#project-container').css('min-height', projContainerHeight);
+  //remove outgoing projects
+  $('.project').remove();
   //add incoming projects
   var typeProjects = projects.filter(function(d){ return d.type === projType; });
   typeProjects.forEach(function(d){
      $('#project-container').append(
-      '<div class="col-md-6 ' + projType + '-project">' +
+      '<div class="col-md-6 project">' +
         '<img class="img-responsive center-block project-img" src="/images/projects/' + d.image + '" title="Click for project details" onclick="showProjectModal(' + d.key + ')">' +
       '</div>'
     );
@@ -83,15 +88,10 @@ function drawProjects (projType) {
   //update buttons
   $('.work-btn').removeClass('work-btn-selected');
   $('#' + projType + '-btn').addClass('work-btn-selected');
-  //remove outgoing projects
-  switch(projType) {
-    case 'web':
-      $('.viz-project').remove();
-      break;
-    case 'viz':
-      $('.web-project').remove();
-      break;
-  }
+  //reset project container min-height after a quarter of a second
+  setTimeout(function(){
+    $('#project-container').css('min-height', '0');
+  }, 250);
 }
 
 function showProjectModal (projKey) {
