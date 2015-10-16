@@ -20,6 +20,21 @@
     {
       "key": 2,
       "type": "web",
+      "name": "100 Day UI Elements Challenge",
+      "release": "Ongoing",
+      "image": "daily_ui.jpg",
+      "link": "http://colinrcummings.github.io/daily_ui/",
+      "description": "My designs for the 100 Day UI Elements Challenge.",
+      "technology": [
+        "Bootstrap",
+        "jQuery",
+        "D3",
+        "Animate"
+      ]
+    },
+    {
+      "key": 3,
+      "type": "web",
       "name": "Frances Kornbluth",
       "release": "April 2015",
       "image": "frances_kornbluth.jpg",
@@ -33,7 +48,7 @@
       ]
     },
     {
-      "key": 3,
+      "key": 4,
       "type": "viz",
       "name": "2015 Colorado 14ers Scorecard",
       "release": "June 2015",
@@ -50,7 +65,7 @@
       ]
     },
     {
-      "key": 4,
+      "key": 5,
       "type": "viz",
       "name": "2014 JMT Hiker Survey Results",
       "release": "May 2015",

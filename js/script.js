@@ -63,7 +63,7 @@ function changeTech (techIndex) {
     setTimeout(function(){
       $(lastTech).remove();
       lastTech = '#' + incomingTech.id;
-  }, 210);
+  }, 500);
   $('#splash-typed-text').css('color', incomingTech.color);
   $('#tech-svg').append("<img src=/images/tech-svg/" + incomingTech.file  + " id='" + incomingTech.id + "' class='tech-img slideInRight animated'>");
 }
