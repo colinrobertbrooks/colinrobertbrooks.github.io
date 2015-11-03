@@ -4,7 +4,7 @@
       "key": 1,
       "type": "web",
       "name": "PeakBucket",
-      "release": "Forthcoming",
+      "release": "November 10, 2015",
       "image": "pb_splash.jpg",
       "description": "A free data tracking and visualization web application for peakbaggers that I'm currently developing with my friend @maxArturoAS.",
       "link": "http://www.peakbucket.com/",
@@ -26,9 +26,11 @@
       "link": "http://colinrcummings.github.io/daily_ui/",
       "description": "My designs for the 100 Day UI Elements Challenge.",
       "technology": [
+        "React",
         "Bootstrap",
         "jQuery",
         "D3",
+        "Underscore",
         "Animate"
       ]
     },
