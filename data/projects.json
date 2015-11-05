@@ -26,6 +26,7 @@
       "link": "http://colinrcummings.github.io/daily_ui/",
       "description": "My designs for the 100 Day UI Elements Challenge.",
       "technology": [
+        "Rails",
         "React",
         "Bootstrap",
         "jQuery",
@@ -52,6 +53,22 @@
     {
       "key": 4,
       "type": "viz",
+      "name": "Yosemite Weather Trends",
+      "release": "November 2015",
+      "image": "yosemite_weather.jpg",
+      "link": "http://colinrcummings.github.io/daily_ui/018_analytics_chart",
+      "description": "An interactive chart displaying weather trends in Yosemite National Park between 2011 and 2015.",
+      "technology": [
+        "React",
+        "Bootstrap",
+        "jQuery",
+        "D3",
+        "Animate"
+      ]
+    },
+    {
+      "key": 5,
+      "type": "viz",
       "name": "2015 Colorado 14ers Scorecard",
       "release": "June 2015",
       "image": "cfi_2015_sc.jpg",
@@ -67,7 +84,7 @@
       ]
     },
     {
-      "key": 5,
+      "key": 6,
       "type": "viz",
       "name": "2014 JMT Hiker Survey Results",
       "release": "May 2015",
