@@ -17,6 +17,7 @@ var techArr = [
   {id: "jquery", file: 'jquery.svg', color: '#21609b', name: 'jQuery'},
   {id: "d3", file: 'd3.svg', color: '#f68e45', name: 'D3'},
   {id: "react", file: 'react.svg', color: '#53c1de', name: 'React'},
+  {id: "node", file: 'node.svg', color: '#8cc84b', name: 'Node'},
   {id: "rails", file: 'rails.svg', color: '#a62c39', name: 'Rails'}
 ];
 var lastTech;
