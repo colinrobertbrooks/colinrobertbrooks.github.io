@@ -14,7 +14,7 @@
         "Bootstrap",
         "jQuery",
         "D3",
-        "Crossfilter"
+        "Underscore"
       ]
     },
     {
@@ -26,13 +26,12 @@
       "link": "http://colinrcummings.github.io/daily_ui/",
       "description": "My designs for the 100 Day UI Elements Challenge.",
       "technology": [
-        "Rails",
+        "Ruby on Rails",
         "React",
         "Bootstrap",
         "jQuery",
         "D3",
-        "Underscore",
-        "Animate"
+        "Underscore"
       ]
     },
     {
@@ -46,8 +45,7 @@
       "technology": [
         "Bootstrap",
         "jQuery",
-        "D3",
-        "Crossfilter"
+        "D3"
       ]
     },
     {
@@ -62,8 +60,7 @@
         "React",
         "Bootstrap",
         "jQuery",
-        "D3",
-        "Animate"
+        "D3"
       ]
     },
     {
@@ -77,10 +74,8 @@
       "technology": [
         "Bootstrap",
         "jQuery",
-        "D3",
-        "Crossfilter",
-        "TopoJSON",
-        "Queue"
+        "D3"
+        "TopoJSON"
       ]
     },
     {
@@ -89,16 +84,13 @@
       "name": "2014 JMT Hiker Survey Results",
       "release": "May 2015",
       "image": "jmt_survey_2014.jpg",
-      "link": "http://colinrcummings.github.io/jmt_vis/",
+      "link": "http://colinrcummings.github.io/jmt_vis/2014_survey_results",
       "description": "An interactive data visualization of the 2014 JMT Hiker Survey.",
       "technology": [
         "Bootstrap",
         "jQuery",
-        "D3",
-        "Crossfilter",
-        "TopoJSON",
-        "Waypoints",
-        "Animate"
+        "D3"
+        "TopoJSON"
       ]
     }
   ]
