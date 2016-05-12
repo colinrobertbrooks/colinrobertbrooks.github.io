@@ -1,0 +1,26 @@
+.logo-container {
+  padding: 25px;
+}
+.logo-img {
+  display: inline;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  margin-bottom: 18px;
+}
+.logo-h1 {
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 32px;
+  font-weight: 400;
+}
+.logo-subtext {
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 20px;
+  font-weight: 400;
+}
