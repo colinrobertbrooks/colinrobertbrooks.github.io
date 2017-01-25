@@ -11,27 +11,23 @@
       "technology": [
         "Ruby on Rails",
         "React",
-        "Bootstrap",
-        "jQuery",
-        "D3",
-        "Underscore"
+        "Bootstrap 3",
+        "D3"
       ]
     },
     {
       "key": 2,
       "type": "web",
-      "name": "100 Day UI Elements Challenge",
-      "release": "Ongoing",
-      "image": "daily_ui.jpg",
-      "link": "http://colinrcummings.github.io/daily_ui/",
-      "description": "My designs for the 100 Day UI Elements Challenge.",
+      "name": "Brynne & Don",
+      "release": "February 2017",
+      "image": "brynne_and_don.jpg",
+      "link": "https://www.brynneanddon.com",
+      "description": "A wedding website with an online RSVP submittal and management process.",
       "technology": [
-        "Ruby on Rails",
+        "Node",
+        "Webpack",
         "React",
-        "Bootstrap",
-        "jQuery",
-        "D3",
-        "Underscore"
+        "Bootstrap 4"
       ]
     },
     {
@@ -43,8 +39,7 @@
       "link": "http://colinrcummings.github.io/frances_kornbluth/collection.html",
       "description": "An artist's website, including an interactive online collection.",
       "technology": [
-        "Bootstrap",
-        "jQuery",
+        "Bootstrap 3",
         "D3"
       ]
     },
@@ -58,10 +53,8 @@
       "description": "An interactive data visualization of 2015 JMT Hiker Survey respondent geography in choropleth mappings by county, state and country.",
       "technology": [
         "React",
-        "Bootstrap",
-        "jQuery",
-        "D3",
-        "TopoJSON"
+        "Bootstrap 3",
+        "D3"
       ]
     },
     {
@@ -74,8 +67,7 @@
       "description": "An interactive chart displaying weather trends in Yosemite National Park between 2011 and 2015.",
       "technology": [
         "React",
-        "Bootstrap",
-        "jQuery",
+        "Bootstrap 3",
         "D3"
       ]
     },
@@ -88,10 +80,8 @@
       "link": "http://colinrcummings.github.io/cfi_vis/",
       "description": "An interactive data visualization of the 2015 Colorado 14ers Statewide Scorecard.",
       "technology": [
-        "Bootstrap",
-        "jQuery",
-        "D3",
-        "TopoJSON"
+        "Bootstrap 3",
+        "D3"
       ]
     },
     {
@@ -103,10 +93,8 @@
       "link": "http://colinrcummings.github.io/jmt_vis/2014_survey_results",
       "description": "An interactive data visualization of the 2014 JMT Hiker Survey.",
       "technology": [
-        "Bootstrap",
-        "jQuery",
-        "D3",
-        "TopoJSON"
+        "Bootstrap 3",
+        "D3"
       ]
     }
   ]
