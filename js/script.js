@@ -17,7 +17,7 @@ var techArr = [
   {id: 'node', file: 'node.svg', color: '#8cc84b', name: 'Node'},
   {id: 'webpack', file: 'webpack.svg', color: '#1c78c0', name: 'Webpack'},
   {id: 'gulp', file: 'gulp.svg', color: '#cf4647', name: 'Gulp'},
-  {id: 'rails', file: 'rails.svg', color: '#a62c39', name: 'Rails'},
+  {id: 'rails', file: 'rails.svg', color: '#cc0000', name: 'Rails'},
   {id: 'jasmine', file: 'jasmine.svg', color: '#8a4182', name: 'Jasmine'}
 ];
 var lastTech;
