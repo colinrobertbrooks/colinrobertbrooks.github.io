@@ -1,3 +1,2 @@
-My work:
+# [Portfolio](http://colinrcummings.github.io/)
 
-http://colinrcummings.github.io/

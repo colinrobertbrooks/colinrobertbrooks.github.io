@@ -38,7 +38,7 @@ body {
 
 
 /* buttons */
-a.square-btn {
+a.square-btn-white {
   padding: 15px 25px;
   display: inline-block;
   border: solid 3px #fff;
@@ -52,10 +52,31 @@ a.square-btn {
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
-a.square-btn:hover,
-a.square-btn:focus {
+a.square-btn-white:hover,
+a.square-btn-white:focus {
   background-color: #fff;
   color: #000;
+  text-decoration: none;
+}
+a.square-btn-black {
+  padding: 15px 25px;
+  display: inline-block;
+  border: solid 3px #7f7f7f;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #7f7f7f;
+  font-weight: bold;
+  letter-spacing: 3px;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+a.square-btn-black:hover,
+a.square-btn-black:focus {
+  background-color: #424242;
+  border-color: #424242;
+  color: #fff;
   text-decoration: none;
 }
 .continue-btn {
@@ -210,8 +231,8 @@ header {
 
 /* about */
 .about {
-  padding-top: 75px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 25px;
   background-color: #f5f6fa;
 }
 .about h1 {
@@ -234,7 +255,10 @@ header {
   border-radius: 100%;
   text-align: left;
 }
-
+.to-blog-btn-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 
 /* work */
 .featured-work {

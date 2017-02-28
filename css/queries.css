@@ -15,10 +15,6 @@
   #to-about-btn {
     margin-top: 75px;
   }
-  .about {
-    padding-top: 30px !important;
-  }
-  }
   .contact-interior {
     padding-top: 100px;
   }
@@ -36,9 +32,6 @@
 
 /* below md */
 @media only screen and (max-width: 992px)  {
-  .about {
-    padding: 100px 0;
-  }
   section.contact {
     background: url(../images/contact.jpg) no-repeat right center;
     -webkit-background-size: cover;
