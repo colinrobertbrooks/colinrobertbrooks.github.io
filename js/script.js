@@ -12,12 +12,12 @@ var projects;
 var techArr = [
   {id: 'javascript', file: 'javascript.svg', color: '#f7df1e', name: 'JavaScript'},
   {id: 'react', file: 'react.svg', color: '#53c1de', name: 'React'},
+  {id: 'redux', file: 'redux.svg', color: '#764abc', name: 'Redux'},
   {id: 'bootstrap', file: 'bootstrap.svg', color: '#563d7c', name: 'Bootstrap'},
   {id: 'd3', file: 'd3.svg', color: '#f68e45', name: 'D3'},
   {id: 'node', file: 'node.svg', color: '#8cc84b', name: 'Node'},
   {id: 'webpack', file: 'webpack.svg', color: '#1c78c0', name: 'Webpack'},
   {id: 'gulp', file: 'gulp.svg', color: '#cf4647', name: 'Gulp'},
-  {id: 'rails', file: 'rails.svg', color: '#cc0000', name: 'Rails'},
   {id: 'jasmine', file: 'jasmine.svg', color: '#8a4182', name: 'Jasmine'}
 ];
 var lastTech;
