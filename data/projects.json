@@ -21,7 +21,7 @@
       "name": "Brynne & Don",
       "release": "February 2017",
       "image": "brynne_and_don.jpg",
-      "link": "https://www.brynneanddon.com",
+      "link": "https://brynne-and-don.herokuapp.com/",
       "description": "A wedding website with an online RSVP submittal and management process.",
       "technology": [
         "Node",
@@ -36,7 +36,7 @@
       "name": "Frances Kornbluth",
       "release": "April 2015",
       "image": "frances_kornbluth.jpg",
-      "link": "http://colinrcummings.github.io/frances_kornbluth/collection.html",
+      "link": "https://colinrcummings.github.io/frances_kornbluth/collection.html",
       "description": "An artist's website, including an interactive online collection.",
       "technology": [
         "Bootstrap 3",
@@ -49,7 +49,7 @@
       "name": "2015 JMT Hiker Survey Repondent Geography",
       "release": "January 2016",
       "image": "jmt_respondent_geo_2015.jpg",
-      "link": "http://colinrcummings.github.io/jmt_vis/2015_respondent_geography",
+      "link": "https://colinrcummings.github.io/jmt_vis/2015_respondent_geography",
       "description": "An interactive data visualization of 2015 JMT Hiker Survey respondent geography in choropleth mappings by county, state and country.",
       "technology": [
         "React",
@@ -63,7 +63,7 @@
       "name": "Yosemite Weather Trends",
       "release": "November 2015",
       "image": "yosemite_weather.jpg",
-      "link": "http://colinrcummings.github.io/daily_ui/018_analytics_chart",
+      "link": "https://colinrcummings.github.io/daily_ui/018_analytics_chart",
       "description": "An interactive chart displaying weather trends in Yosemite National Park between 2011 and 2015.",
       "technology": [
         "React",
@@ -77,7 +77,7 @@
       "name": "2015 Colorado 14ers Scorecard",
       "release": "June 2015",
       "image": "cfi_2015_sc.jpg",
-      "link": "http://colinrcummings.github.io/cfi_vis/",
+      "link": "https://colinrcummings.github.io/cfi_vis/",
       "description": "An interactive data visualization of the 2015 Colorado 14ers Statewide Scorecard.",
       "technology": [
         "Bootstrap 3",
@@ -90,7 +90,7 @@
       "name": "2014 JMT Hiker Survey Results",
       "release": "May 2015",
       "image": "jmt_survey_2014.jpg",
-      "link": "http://colinrcummings.github.io/jmt_vis/2014_survey_results",
+      "link": "https://colinrcummings.github.io/jmt_vis/2014_survey_results",
       "description": "An interactive data visualization of the 2014 JMT Hiker Survey.",
       "technology": [
         "Bootstrap 3",
