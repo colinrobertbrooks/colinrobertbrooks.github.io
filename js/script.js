@@ -16,6 +16,12 @@ const techArr = [
     color: "#f7df1e",
     name: "JavaScript"
   },
+  {
+    id: "typescript",
+    file: "typescript.svg",
+    color: "#007acc",
+    name: "TypeScript"
+  },
   { id: "node", file: "node.svg", color: "#8cc84b", name: "Node" },
   { id: "webpack", file: "webpack.svg", color: "#1c78c0", name: "Webpack" },
   { id: "react", file: "react.svg", color: "#53c1de", name: "React" },
