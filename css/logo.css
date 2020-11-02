@@ -1,26 +1,44 @@
 .logo-container {
+  display: flex;
+  align-items: center;
   padding: 25px;
 }
+
 .logo-img {
   display: inline;
   height: 40px;
   width: 40px;
-  margin-right: 10px;
-  margin-bottom: 18px;
 }
+
+.logo-img-circle {
+  align-items: center;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  height: 32px;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-right: 10px;
+  width: 32px;
+}
+
 .logo-h1 {
   display: inline;
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 6px;
   font-size: 32px;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
+  letter-spacing: 6px;
+  margin: 0;
+  text-transform: uppercase;
 }
 .logo-subtext {
   display: inline;
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
