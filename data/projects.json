@@ -8,20 +8,10 @@
       "image": "frances_kornbluth.jpg",
       "link": "https://franceskornbluth.com/",
       "description": "An artist's website.",
-      "technology": ["React", "Bootstrap 4"]
+      "technology": ["Typescript", "React", "Bootstrap 4"]
     },
     {
       "key": 2,
-      "type": "web",
-      "name": "PeakBucket",
-      "release": "November 2015",
-      "image": "pb_splash.jpg",
-      "description": "A free data tracking and visualization web application for peakbaggers.",
-      "link": "https://peakbucket.com/",
-      "technology": ["Ruby on Rails", "React", "Bootstrap 3", "D3"]
-    },
-    {
-      "key": 3,
       "type": "web",
       "name": "Brynne & Don",
       "release": "February 2017",
@@ -31,6 +21,17 @@
       "technology": ["Node", "Webpack", "React", "Bootstrap 4"]
     },
     {
+      "key": 3,
+      "type": "web",
+      "name": "PeakBucket",
+      "release": "November 2015",
+      "image": "pb_splash.jpg",
+      "description": "A free data tracking and visualization web application for peakbaggers.",
+      "link": "https://peakbucket.com/",
+      "technology": ["Ruby on Rails", "React",  "D3", "Bootstrap 3"]
+    },
+
+    {
       "key": 4,
       "type": "viz",
       "name": "2015 JMT Hiker Survey Repondent Geography",
@@ -38,7 +39,7 @@
       "image": "jmt_respondent_geo_2015.jpg",
       "link": "https://colinrobertbrooks.github.io/jmt_vis/2015_respondent_geography",
       "description": "An interactive data visualization of 2015 JMT Hiker Survey respondent geography in choropleth mappings by county, state and country.",
-      "technology": ["React", "Bootstrap 3", "D3"]
+      "technology": ["React",  "D3", "Bootstrap 3"]
     },
     {
       "key": 5,
@@ -48,7 +49,7 @@
       "image": "yosemite_weather.jpg",
       "link": "https://colinrobertbrooks.github.io/daily_ui/018_analytics_chart",
       "description": "An interactive chart displaying weather trends in Yosemite National Park between 2011 and 2015.",
-      "technology": ["React", "Bootstrap 3", "D3"]
+      "technology": ["React", "D3", "Bootstrap 3"]
     },
     {
       "key": 6,
@@ -58,7 +59,7 @@
       "image": "cfi_2015_sc.jpg",
       "link": "https://colinrobertbrooks.github.io/cfi_vis/",
       "description": "An interactive data visualization of the 2015 Colorado 14ers Statewide Scorecard.",
-      "technology": ["Bootstrap 3", "D3"]
+      "technology": [ "D3", "Bootstrap 3"]
     },
     {
       "key": 7,
@@ -68,7 +69,7 @@
       "image": "jmt_survey_2014.jpg",
       "link": "https://colinrobertbrooks.github.io/jmt_vis/2014_survey_results",
       "description": "An interactive data visualization of the 2014 JMT Hiker Survey.",
-      "technology": ["Bootstrap 3", "D3"]
+      "technology": ["D3", "Bootstrap 3"]
     }
   ]
 }
