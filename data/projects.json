@@ -3,15 +3,25 @@
     {
       "key": 1,
       "type": "web",
+      "name": "Frances Kornbluth",
+      "release": "December 2020",
+      "image": "frances_kornbluth.jpg",
+      "link": "https://franceskornbluth.com/",
+      "description": "An artist's website.",
+      "technology": ["React", "Bootstrap 4"]
+    },
+    {
+      "key": 2,
+      "type": "web",
       "name": "PeakBucket",
       "release": "November 2015",
       "image": "pb_splash.jpg",
       "description": "A free data tracking and visualization web application for peakbaggers.",
-      "link": "https://www.peakbucket.com/",
+      "link": "https://peakbucket.com/",
       "technology": ["Ruby on Rails", "React", "Bootstrap 3", "D3"]
     },
     {
-      "key": 2,
+      "key": 3,
       "type": "web",
       "name": "Brynne & Don",
       "release": "February 2017",
@@ -19,16 +29,6 @@
       "link": "https://brynne-and-don.herokuapp.com/",
       "description": "A wedding website with an online RSVP submittal and management process.",
       "technology": ["Node", "Webpack", "React", "Bootstrap 4"]
-    },
-    {
-      "key": 3,
-      "type": "web",
-      "name": "Frances Kornbluth",
-      "release": "April 2015",
-      "image": "frances_kornbluth.jpg",
-      "link": "https://colinrobertbrooks.github.io/frances_kornbluth/collection.html",
-      "description": "An artist's website, including an interactive online collection.",
-      "technology": ["Bootstrap 3", "D3"]
     },
     {
       "key": 4,
