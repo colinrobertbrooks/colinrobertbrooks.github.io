@@ -247,7 +247,7 @@ header {
   color: #7f7f7f;
   line-height: 150%;
 }
-.gravatar {
+.avatar {
   width: 120px;
   height: 120px;
   margin-top: 20px;
@@ -338,20 +338,6 @@ section.contact {
 .contact-icon:hover,
 .contact-icon:focus {
   color: #dcdde1;
-}
-
-/* waypoints */
-.wp1-effect-1,
-.wp1-effect-2,
-.wp1-effect-3,
-.wp2-effect-1,
-.wp2-effect-2 {
-  visibility: hidden;
-}
-.fadeIn,
-.fadeInDown,
-.fadeInUp {
-  visibility: visible;
 }
 
 /* sliiide */
