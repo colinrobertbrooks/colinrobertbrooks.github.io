@@ -282,11 +282,11 @@ header {
   font-weight: bold;
   letter-spacing: 3px;
 }
-.work-btn:hover {
+.work-btn:hover,
+.work-btn:focus {
   color: #fff;
   background-color: #424242;
 }
-.work-btn:focus,
 .work-btn:active,
 .work-btn-selected {
   color: #fff;
