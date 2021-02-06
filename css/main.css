@@ -327,17 +327,21 @@ section.contact {
 #contact-btn {
   margin-bottom: 110px;
 }
-.contact-icon {
+.contact-social-link {
   color: #fff;
-  margin-right: 2px;
-  margin-left: 2px;
-  font-size: 33px;
+  display: inline-block;
+  margin-right: 3px;
+  margin-left: 3px;
   margin-top: 90px;
   margin-bottom: 90px;
 }
-.contact-icon:hover,
-.contact-icon:focus {
+.contact-social-link:hover,
+.contact-social-link:focus {
   color: #dcdde1;
+  text-decoration: none;
+}
+.contact-social-icon {
+  font-size: 33px;
 }
 
 /* sliiide */
