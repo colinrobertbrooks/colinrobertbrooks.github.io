@@ -259,39 +259,18 @@ header {
   margin-bottom: 25px;
 }
 
-/* work */
-.featured-work {
+/* featured projects */
+.featured-projects {
   padding-top: 30px;
   padding-bottom: 90px;
 }
-.featured-work h1 {
+.featured-projects h1 {
   color: #424242;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 20px;
-}
-.work-btn {
-  min-width: 75px;
-  color: #7f7f7f;
-  background-color: #fff;
-  border: 1px solid #424242;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 3px;
-}
-.work-btn:hover,
-.work-btn:focus {
-  color: #fff;
-  background-color: #424242;
-}
-.work-btn:active,
-.work-btn-selected {
-  color: #fff;
-  background-color: #7f7f7f;
-  outline: none;
 }
 #project-container {
   margin-top: 30px;

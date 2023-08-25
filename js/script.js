@@ -27,10 +27,10 @@ let lastTech;
 
 // document ready function
 $(document).ready(function () {
-  // load project data and draw web projects
+  // load project data and draw projects
   d3.json("/data/projects.json", function (data) {
     projects = data.projects;
-    drawProjects("web");
+    drawProjects();
   });
   // initiate sliiide
   $("#menu").sliiide(sliiideConfig);
@@ -60,17 +60,8 @@ $(document).ready(function () {
 });
 
 // project functions
-function drawProjects(projType) {
-  // set projects container min-height
-  const projContainerHeight = $("#project-container").height();
-  $("#project-container").css("min-height", projContainerHeight);
-  // remove outgoing projects
-  $(".project").remove();
-  // add incoming projects
-  const typeProjects = projects.filter(function (d) {
-    return d.type === projType;
-  });
-  typeProjects.forEach(function (d) {
+function drawProjects() {
+  projects.forEach(function (d) {
     $("#project-container").append(
       '<div class="col-md-6 project">' +
         '<img class="img-responsive center-block project-img" src="/images/projects/' +
@@ -81,13 +72,6 @@ function drawProjects(projType) {
         "</div>"
     );
   });
-  // update buttons
-  $(".work-btn").removeClass("work-btn-selected");
-  $("#" + projType + "-btn").addClass("work-btn-selected");
-  // reset project container min-height after a quarter of a second
-  setTimeout(function () {
-    $("#project-container").css("min-height", "0");
-  }, 250);
 }
 
 function showProjectModal(projKey) {
@@ -115,7 +99,7 @@ function changeTech(techIndex) {
   }, 500);
   $("#splash-typed-text").css("color", incomingTech.color);
   $("#tech-svg").append(
-    '<img src="/images/tech-svg/' +
+    '<img src="/images/tech/' +
       incomingTech.file +
       '" id="' +
       incomingTech.id +

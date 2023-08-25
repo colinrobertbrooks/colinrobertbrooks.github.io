@@ -1,74 +1,94 @@
 {
   "projects": [
     {
-      "key": 1,
-      "type": "web",
+      "key": 10,
       "name": "PeakBucket",
       "release": "February 2023",
-      "image": "pb_splash.jpg",
+      "image": "peakbucket.jpg",
       "description": "A free data tracking and visualization web application for peakbaggers.",
       "link": "https://peakbucket.com/",
-      "technology": ["TypeScript", "NodeJS", "GraphQL", "React", "D3"]
+      "technology": ["TypeScript", "NodeJS", "Apollo", "React", "D3", "Twind"]
     },
     {
-      "key": 2,
-      "type": "web",
+      "key": 9,
+      "name": "Solid.js + urql Pokédex",
+      "release": "May 2022",
+      "image": "solid_urql_pokedex.jpg",
+      "description": "A proof of concept web application showcasing the capabilities of Solid.js in combination with urql.",
+      "link": "https://solid-urql-pokedex.netlify.app/",
+      "technology": ["TypeScript", "Vite", "urql", "Solid.js", "Twind"]
+    },
+    {
+      "key": 8,
+      "name": "Checkers",
+      "release": "September 2021",
+      "image": "checkers.jpg",
+      "link": "https://colinrobertbrooks.github.io/checkers/",
+      "description": "Play checkers.",
+      "technology": ["Typescript", "React", "Styled Components", "Bootstrap"]
+    },
+    {
+      "key": 7,
+      "name": "Podcast Bingo",
+      "release": "March 2021",
+      "image": "podcast_bingo.jpg",
+      "link": "https://colinrobertbrooks.github.io/tr-podcast-bingo/",
+      "description": "AACC Podcast Bingo.",
+      "technology": ["Typescript", "React", "Styled Components", "Bootstrap"]
+    },
+    {
+      "key": 6,
       "name": "Frances Kornbluth",
       "release": "December 2020",
       "image": "frances_kornbluth.jpg",
       "link": "https://franceskornbluth.com/",
       "description": "An artist's website.",
-      "technology": ["Typescript", "React", "Bootstrap 4"]
+      "technology": ["Typescript", "React", "Bootstrap"]
     },
     {
-      "key": 3,
-      "type": "web",
+      "key": 5,
       "name": "Brynne & Don",
       "release": "February 2017",
       "image": "brynne_and_don.jpg",
       "link": "https://brynne-and-don.herokuapp.com/",
       "description": "A wedding website with an online RSVP submittal and management process.",
-      "technology": ["Node", "Webpack", "React", "Bootstrap 4"]
+      "technology": ["Node", "Webpack", "React", "Bootstrap"]
     },
     {
       "key": 4,
-      "type": "viz",
-      "name": "2015 JMT Hiker Survey Repondent Geography",
+      "name": "2015 JMT Hiker Survey Respondent Geography",
       "release": "January 2016",
       "image": "jmt_respondent_geo_2015.jpg",
       "link": "https://colinrobertbrooks.github.io/jmt_vis/2015_respondent_geography",
       "description": "An interactive data visualization of 2015 JMT Hiker Survey respondent geography in choropleth mappings by county, state and country.",
-      "technology": ["React", "D3", "Bootstrap 3"]
+      "technology": ["React", "D3", "Bootstrap"]
     },
     {
-      "key": 5,
-      "type": "viz",
+      "key": 3,
       "name": "Yosemite Weather Trends",
       "release": "November 2015",
       "image": "yosemite_weather.jpg",
       "link": "https://colinrobertbrooks.github.io/daily_ui/018_analytics_chart",
       "description": "An interactive chart displaying weather trends in Yosemite National Park between 2011 and 2015.",
-      "technology": ["React", "D3", "Bootstrap 3"]
+      "technology": ["React", "D3", "Bootstrap"]
     },
     {
-      "key": 6,
-      "type": "viz",
+      "key": 2,
       "name": "2015 Colorado 14ers Scorecard",
       "release": "June 2015",
       "image": "cfi_2015_sc.jpg",
       "link": "https://colinrobertbrooks.github.io/cfi_vis/",
       "description": "An interactive data visualization of the 2015 Colorado 14ers Statewide Scorecard.",
-      "technology": ["D3", "Bootstrap 3"]
+      "technology": ["D3", "Bootstrap"]
     },
     {
-      "key": 7,
-      "type": "viz",
+      "key": 1,
       "name": "2014 JMT Hiker Survey Results",
       "release": "May 2015",
       "image": "jmt_survey_2014.jpg",
       "link": "https://colinrobertbrooks.github.io/jmt_vis/2014_survey_results",
       "description": "An interactive data visualization of the 2014 JMT Hiker Survey.",
-      "technology": ["D3", "Bootstrap 3"]
+      "technology": ["D3", "Bootstrap"]
     }
   ]
 }
