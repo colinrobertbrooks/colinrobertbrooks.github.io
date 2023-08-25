@@ -11,21 +11,14 @@ const sliiideConfig = {
 let projects;
 const techArr = [
   {
-    id: "javascript",
-    file: "javascript.svg",
-    color: "#f7df1e",
-    name: "JavaScript",
-  },
-  {
     id: "typescript",
     file: "typescript.svg",
     color: "#007acc",
     name: "TypeScript",
   },
   { id: "node", file: "node.svg", color: "#8cc84b", name: "Node" },
-  { id: "webpack", file: "webpack.svg", color: "#1c78c0", name: "Webpack" },
-  { id: "react", file: "react.svg", color: "#53c1de", name: "React" },
   { id: "graphql", file: "graphql.svg", color: "#E534AB", name: "GraphQL" },
+  { id: "react", file: "react.svg", color: "#53c1de", name: "React" },
   { id: "d3", file: "d3.svg", color: "#f68e45", name: "D3" },
   { id: "jest", file: "jest.svg", color: "#c63d14", name: "Jest" },
   { id: "cypress", file: "cypress.svg", color: "#fbfbfb", name: "Cypress" },
