@@ -50,7 +50,7 @@
       "name": "Brynne & Don",
       "release": "February 2017",
       "image": "brynne_and_don.jpg",
-      "link": "https://brynne-and-don.herokuapp.com/",
+      "link": "https://colinrobertbrooks.github.io/blog/a-wedding-website/",
       "description": "A wedding website with an online RSVP submittal and management process.",
       "technology": ["Node", "Webpack", "React", "Bootstrap"]
     },
@@ -62,24 +62,6 @@
       "link": "https://colinrobertbrooks.github.io/jmt_vis/2015_respondent_geography",
       "description": "An interactive data visualization of 2015 JMT Hiker Survey respondent geography in choropleth mappings by county, state and country.",
       "technology": ["React", "D3", "Bootstrap"]
-    },
-    {
-      "key": 3,
-      "name": "Yosemite Weather Trends",
-      "release": "November 2015",
-      "image": "yosemite_weather.jpg",
-      "link": "https://colinrobertbrooks.github.io/daily_ui/018_analytics_chart",
-      "description": "An interactive chart displaying weather trends in Yosemite National Park between 2011 and 2015.",
-      "technology": ["React", "D3", "Bootstrap"]
-    },
-    {
-      "key": 2,
-      "name": "2015 Colorado 14ers Scorecard",
-      "release": "June 2015",
-      "image": "cfi_2015_sc.jpg",
-      "link": "https://colinrobertbrooks.github.io/cfi_vis/",
-      "description": "An interactive data visualization of the 2015 Colorado 14ers Statewide Scorecard.",
-      "technology": ["D3", "Bootstrap"]
     },
     {
       "key": 1,
