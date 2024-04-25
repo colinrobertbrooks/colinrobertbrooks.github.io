@@ -55,15 +55,6 @@
       "technology": ["Typescript", "React", "Bootstrap"]
     },
     {
-      "key": 5,
-      "name": "Brynne & Don",
-      "release": "February 2017",
-      "image": "brynne_and_don.jpg",
-      "link": "https://colinrobertbrooks.github.io/blog/a-wedding-website/",
-      "description": "A wedding website with an online RSVP submittal and management process.",
-      "technology": ["Node", "Webpack", "React", "Bootstrap"]
-    },
-    {
       "key": 4,
       "name": "2015 JMT Hiker Survey Respondent Geography",
       "release": "January 2016",
