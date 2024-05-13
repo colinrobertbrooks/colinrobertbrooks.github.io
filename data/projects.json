@@ -1,15 +1,6 @@
 {
   "projects": [
     {
-      "key": 11,
-      "name": "Julie Heller Gallery",
-      "release": "April 2024",
-      "image": "julie_heller_gallery.jpg",
-      "description": "Provincetown's oldest art gallery.",
-      "link": "https://juliehellergallery.com/",
-      "technology": ["TypeScript", "Next.js", "Sanity", "React", "Tailwind"]
-    },
-    {
       "key": 10,
       "name": "PeakBucket",
       "release": "February 2023",
