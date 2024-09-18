@@ -259,9 +259,39 @@ header {
   margin-bottom: 25px;
 }
 
+/* past clients */
+.past-clients {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.past-clients h1 {
+  color: #424242;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#client-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+.client-img {
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
 /* featured projects */
 .featured-projects {
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 90px;
 }
 .featured-projects h1 {

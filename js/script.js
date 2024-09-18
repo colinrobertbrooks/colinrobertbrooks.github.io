@@ -9,6 +9,7 @@ const sliiideConfig = {
   no_scroll: true,
 };
 let projects;
+let clients;
 const techArr = [
   {
     id: "typescript",
@@ -31,6 +32,11 @@ $(document).ready(function () {
   d3.json("/data/projects.json", function (data) {
     projects = data.projects;
     drawProjects();
+  });
+  // load client data and draw clients
+  d3.json("/data/clients.json", function (data) {
+    clients = data.clients;
+    drawClients();
   });
   // initiate sliiide
   $("#menu").sliiide(sliiideConfig);
@@ -70,6 +76,22 @@ function drawProjects() {
         d.key +
         ')">' +
         "</div>"
+    );
+  });
+}
+
+// client functions
+function drawClients() {
+  clients.forEach(function (d) {
+    $("#client-container").append(
+      '<img class="client-img" alt="' +
+        d.name +
+        '" ' +
+        'src="/images/clients/' +
+        d.image +
+        '" title="' +
+        d.name +
+        '">'
     );
   });
 }

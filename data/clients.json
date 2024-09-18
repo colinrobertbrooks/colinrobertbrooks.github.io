@@ -1,0 +1,29 @@
+{
+  "clients": [
+    {
+      "key": 1,
+      "name": "Frito-Lay",
+      "image": "frito-lay.png"
+    },
+    {
+      "key": 2,
+      "name": "Brown University",
+      "image": "brown-university.png"
+    },
+    {
+      "id": 3,
+      "name": "PUMA",
+      "image": "puma.png"
+    },
+    {
+      "id": 4,
+      "name": "lululemon",
+      "image": "lululemon.png"
+    },
+    {
+      "id": 5,
+      "name": "Nintendo",
+      "image": "nintendo.png"
+    }
+  ]
+}
