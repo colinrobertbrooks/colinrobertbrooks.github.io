@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "key": 11,
+      "name": "Joseph De Martini",
+      "release": "September 2024",
+      "image": "joseph-de-martini.jpg",
+      "description": "An artist's website.",
+      "link": "https://www.josephdemartini.art/",
+      "technology": ["TypeScript", "Next.js", "React", "Tailwind"]
+    },
+    {
       "key": 10,
       "name": "PeakBucket",
       "release": "February 2023",
