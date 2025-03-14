@@ -1,16 +1,7 @@
 {
   "projects": [
     {
-      "key": 11,
-      "name": "Joseph De Martini",
-      "release": "September 2024",
-      "image": "joseph-de-martini.jpg",
-      "description": "An artist's website.",
-      "link": "https://www.josephdemartini.art/",
-      "technology": ["TypeScript", "Next.js", "React", "Tailwind"]
-    },
-    {
-      "key": 10,
+      "key": 8,
       "name": "PeakBucket",
       "release": "February 2023",
       "image": "peakbucket.jpg",
@@ -19,31 +10,13 @@
       "technology": ["TypeScript", "NodeJS", "Apollo", "React", "D3", "Twind"]
     },
     {
-      "key": 9,
-      "name": "Solid.js + urql Pokédex",
-      "release": "May 2022",
-      "image": "solid_urql_pokedex.jpg",
-      "description": "A proof of concept web application showcasing the capabilities of Solid.js in combination with urql.",
-      "link": "https://solid-urql-pokedex.netlify.app/",
-      "technology": ["TypeScript", "Vite", "urql", "Solid.js", "Twind"]
-    },
-    {
-      "key": 8,
-      "name": "Checkers",
-      "release": "September 2021",
-      "image": "checkers.jpg",
-      "link": "https://colinrobertbrooks.github.io/checkers/",
-      "description": "Play checkers.",
-      "technology": ["Typescript", "React", "Styled Components", "Bootstrap"]
-    },
-    {
       "key": 7,
-      "name": "Podcast Bingo",
-      "release": "March 2021",
-      "image": "podcast_bingo.jpg",
-      "link": "https://colinrobertbrooks.github.io/tr-podcast-bingo/",
-      "description": "AACC Podcast Bingo.",
-      "technology": ["Typescript", "React", "Styled Components", "Bootstrap"]
+      "name": "Joseph De Martini",
+      "release": "September 2024",
+      "image": "joseph-de-martini.jpg",
+      "description": "An artist's website.",
+      "link": "https://www.josephdemartini.art/",
+      "technology": ["TypeScript", "Next.js", "React", "Tailwind"]
     },
     {
       "key": 6,
@@ -55,7 +28,34 @@
       "technology": ["Typescript", "React", "Bootstrap"]
     },
     {
+      "key": 5,
+      "name": "Solid.js + urql Pokédex",
+      "release": "May 2022",
+      "image": "solid_urql_pokedex.jpg",
+      "description": "A proof of concept web application showcasing the capabilities of Solid.js in combination with urql.",
+      "link": "https://solid-urql-pokedex.netlify.app/",
+      "technology": ["TypeScript", "Vite", "urql", "Solid.js", "Twind"]
+    },
+    {
       "key": 4,
+      "name": "Checkers",
+      "release": "September 2021",
+      "image": "checkers.jpg",
+      "link": "https://colinrobertbrooks.github.io/checkers/",
+      "description": "Play checkers.",
+      "technology": ["Typescript", "React", "Styled Components", "Bootstrap"]
+    },
+    {
+      "key": 3,
+      "name": "Podcast Bingo",
+      "release": "March 2021",
+      "image": "podcast_bingo.jpg",
+      "link": "https://colinrobertbrooks.github.io/tr-podcast-bingo/",
+      "description": "AACC Podcast Bingo.",
+      "technology": ["Typescript", "React", "Styled Components", "Bootstrap"]
+    },
+    {
+      "key": 2,
       "name": "2015 JMT Hiker Survey Respondent Geography",
       "release": "January 2016",
       "image": "jmt_respondent_geo_2015.jpg",
