@@ -7,7 +7,7 @@
       "image": "peakbucket.jpg",
       "description": "A free data tracking and visualization web application for peakbaggers.",
       "link": "https://peakbucket.com/",
-      "technology": ["TypeScript", "NodeJS", "Apollo", "React", "D3", "Twind"]
+      "technology": ["TypeScript", "NodeJS", "GraphQL", "React", "D3", "Twind"]
     },
     {
       "key": 7,
@@ -25,7 +25,7 @@
       "image": "frances_kornbluth.jpg",
       "link": "https://franceskornbluth.com/",
       "description": "An artist's website.",
-      "technology": ["Typescript", "React", "Bootstrap"]
+      "technology": ["Typescript", "Vite", "React", "Bootstrap"]
     },
     {
       "key": 5,
