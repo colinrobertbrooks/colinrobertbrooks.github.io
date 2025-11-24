@@ -103,7 +103,14 @@ function showProjectModal(projKey) {
   })[0];
   $("#proj-modal-name").text(projData.name);
   $("#proj-modal-img").attr("src", "images/projects/" + projData.image);
-  $("#proj-modal-release").text(projData.release);
+  if (projData.released) {
+    $("#proj-modal-date-key").text("Released:");
+    $("#proj-modal-date-val").text(projData.released);
+  }
+  if (projData.updated) {
+    $("#proj-modal-date-key").text("Updated:");
+    $("#proj-modal-date-val").text(projData.updated);
+  }
   $("#proj-modal-description").text(projData.description);
   $("#proj-modal-technology").text(projData.technology.join(", "));
   $("#proj-modal-link").attr("href", projData.link);

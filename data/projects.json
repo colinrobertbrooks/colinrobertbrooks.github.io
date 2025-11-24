@@ -2,62 +2,62 @@
   "projects": [
     {
       "key": 8,
+      "name": "Frank the Frog",
+      "released": "October 2025",
+      "image": "frank-the-frog.jpg",
+      "description": "A website for a children's book I co-authored.",
+      "link": "https://www.frankthefrogbook.com/",
+      "technology": ["TypeScript", "Next.js", "React", "Tailwind"]
+    },
+    {
+      "key": 7,
       "name": "PeakBucket",
-      "release": "February 2023",
+      "updated": "April 2025",
       "image": "peakbucket.jpg",
       "description": "A free data tracking and visualization web application for peakbaggers.",
       "link": "https://peakbucket.com/",
       "technology": ["TypeScript", "NodeJS", "GraphQL", "React", "D3", "Twind"]
     },
     {
-      "key": 7,
+      "key": 6,
       "name": "Joseph De Martini",
-      "release": "September 2024",
+      "released": "September 2024",
       "image": "joseph-de-martini.jpg",
       "description": "An artist's website.",
-      "link": "https://joseph-de-martini.vercel.app/",
+      "link": "https://www.josephdemartiniart.com/",
       "technology": ["TypeScript", "Next.js", "React", "Tailwind"]
     },
     {
-      "key": 6,
+      "key": 5,
       "name": "Frances Kornbluth",
-      "release": "December 2020",
+      "updated": "September 2024",
       "image": "frances_kornbluth.jpg",
       "link": "https://franceskornbluth.com/",
       "description": "An artist's website.",
-      "technology": ["Typescript", "Vite", "React", "Bootstrap"]
-    },
-    {
-      "key": 5,
-      "name": "Solid.js + urql Pokédex",
-      "release": "May 2022",
-      "image": "solid_urql_pokedex.jpg",
-      "description": "A proof of concept web application showcasing the capabilities of Solid.js in combination with urql.",
-      "link": "https://solid-urql-pokedex.netlify.app/",
-      "technology": ["TypeScript", "Vite", "urql", "Solid.js", "Twind"]
+      "technology": ["TypeScript", "Vite", "React", "Bootstrap"]
     },
     {
       "key": 4,
       "name": "Checkers",
-      "release": "September 2021",
+      "released": "September 2021",
       "image": "checkers.jpg",
       "link": "https://colinrobertbrooks.github.io/checkers/",
       "description": "Play checkers.",
-      "technology": ["Typescript", "React", "Styled Components", "Bootstrap"]
+      "technology": ["TypeScript", "React", "Styled Components", "Bootstrap"]
     },
     {
       "key": 3,
       "name": "Podcast Bingo",
-      "release": "March 2021",
+      "released": "March 2021",
       "image": "podcast_bingo.jpg",
       "link": "https://colinrobertbrooks.github.io/tr-podcast-bingo/",
       "description": "AACC Podcast Bingo.",
-      "technology": ["Typescript", "React", "Styled Components", "Bootstrap"]
+      "technology": ["TypeScript", "React", "Styled Components", "Bootstrap"]
     },
     {
       "key": 2,
       "name": "2015 JMT Hiker Survey Respondent Geography",
-      "release": "January 2016",
+      "released": "January 2016",
       "image": "jmt_respondent_geo_2015.jpg",
       "link": "https://colinrobertbrooks.github.io/jmt_vis/2015_respondent_geography",
       "description": "An interactive data visualization of 2015 JMT Hiker Survey respondent geography in choropleth mappings by county, state and country.",
@@ -66,7 +66,7 @@
     {
       "key": 1,
       "name": "2014 JMT Hiker Survey Results",
-      "release": "May 2015",
+      "released": "May 2015",
       "image": "jmt_survey_2014.jpg",
       "link": "https://colinrobertbrooks.github.io/jmt_vis/2014_survey_results",
       "description": "An interactive data visualization of the 2014 JMT Hiker Survey.",
