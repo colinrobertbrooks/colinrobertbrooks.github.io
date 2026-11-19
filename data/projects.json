@@ -1,25 +1,16 @@
 {
   "projects": [
     {
-      "key": 8,
-      "name": "Frank the Frog",
-      "released": "October 2025",
-      "image": "frank-the-frog.jpg",
-      "description": "A website for a children's book I co-authored.",
-      "link": "https://www.frankthefrogbook.com/",
-      "technology": ["TypeScript", "Next.js", "React", "Tailwind"]
-    },
-    {
-      "key": 7,
-      "name": "PeakBucket",
-      "updated": "April 2025",
-      "image": "peakbucket.jpg",
-      "description": "A free data tracking and visualization web application for peakbaggers.",
-      "link": "https://peakbucket.com/",
-      "technology": ["TypeScript", "NodeJS", "GraphQL", "React", "D3", "Twind"]
-    },
-    {
       "key": 6,
+      "name": "Paul Resika",
+      "released": "August 2026",
+      "image": "resika.jpg",
+      "description": "An artist's website.",
+      "link": "https://www.resika.com/",
+      "technology": ["TypeScript", "Sanity", "Next.js", "React", "Tailwind"]
+    },
+    {
+      "key": 5,
       "name": "Joseph De Martini",
       "released": "September 2024",
       "image": "joseph-de-martini.jpg",
@@ -28,7 +19,7 @@
       "technology": ["TypeScript", "Next.js", "React", "Tailwind"]
     },
     {
-      "key": 5,
+      "key": 4,
       "name": "Frances Kornbluth",
       "updated": "September 2024",
       "image": "frances_kornbluth.jpg",
@@ -37,40 +28,31 @@
       "technology": ["TypeScript", "Vite", "React", "Bootstrap"]
     },
     {
-      "key": 4,
-      "name": "Checkers",
-      "released": "September 2021",
-      "image": "checkers.jpg",
-      "link": "https://colinrobertbrooks.github.io/checkers/",
-      "description": "Play checkers.",
-      "technology": ["TypeScript", "React", "Styled Components", "Bootstrap"]
-    },
-    {
       "key": 3,
-      "name": "Podcast Bingo",
-      "released": "March 2021",
-      "image": "podcast_bingo.jpg",
-      "link": "https://colinrobertbrooks.github.io/tr-podcast-bingo/",
-      "description": "AACC Podcast Bingo.",
-      "technology": ["TypeScript", "React", "Styled Components", "Bootstrap"]
+      "name": "Louisa Williams",
+      "updated": "July 2026",
+      "image": "louisa-williams.jpg",
+      "link": "https://louisawillquilt.com/",
+      "description": "An artist's website.",
+      "technology": ["TypeScript", "Sanity", "Next.js", "React", "Tailwind"]
     },
     {
       "key": 2,
-      "name": "2015 JMT Hiker Survey Respondent Geography",
-      "released": "January 2016",
-      "image": "jmt_respondent_geo_2015.jpg",
-      "link": "https://colinrobertbrooks.github.io/jmt_vis/2015_respondent_geography",
-      "description": "An interactive data visualization of 2015 JMT Hiker Survey respondent geography in choropleth mappings by county, state and country.",
-      "technology": ["React", "D3", "Bootstrap"]
+      "name": "Frank the Frog",
+      "released": "October 2025",
+      "image": "frank-the-frog.jpg",
+      "description": "A website for a children's book I co-authored.",
+      "link": "https://www.frankthefrogbook.com/",
+      "technology": ["TypeScript", "Next.js", "React", "Tailwind"]
     },
     {
       "key": 1,
-      "name": "2014 JMT Hiker Survey Results",
-      "released": "May 2015",
-      "image": "jmt_survey_2014.jpg",
-      "link": "https://colinrobertbrooks.github.io/jmt_vis/2014_survey_results",
-      "description": "An interactive data visualization of the 2014 JMT Hiker Survey.",
-      "technology": ["D3", "Bootstrap"]
+      "name": "PeakBucket",
+      "updated": "April 2025",
+      "image": "peakbucket.jpg",
+      "description": "A free data tracking and visualization web application for peakbaggers.",
+      "link": "https://peakbucket.com/",
+      "technology": ["TypeScript", "NodeJS", "GraphQL", "React", "D3", "Twind"]
     }
   ]
 }
